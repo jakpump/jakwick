@@ -1,4 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  background: #111 !important;
-  color: white !important;
+  background: #0b0b0b;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  color: #aaa;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 24px;
+  text-decoration: none;
+  background: #e50914;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #e50914;
+}
+
+.about, .roadmap {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about h2,
+.roadmap h2 {
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.roadmap ul {
+  list-style: none;
+}
+
+.roadmap li {
+  padding: 12px 0;
+  border-bottom: 1px solid #222;
 }
