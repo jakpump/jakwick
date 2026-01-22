@@ -25,13 +25,15 @@ body {
 }
 
 .avatar img {
-  width: 50vw;       
-  max-width: 400px;  
+  width: 200px;       
+  max-width: 35vw;   
   height: auto;      
-  border-radius: 50%;
+  border-radius: 50%; 
   border: none;      
-  outline: none;      
+  outline: none;     
+  display: block;
 }
+
 
 
 }
