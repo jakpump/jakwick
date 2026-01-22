@@ -25,12 +25,13 @@ body {
 }
 
 .avatar img {
-  width: 20vw;       /* scales with viewport width */
-  max-width: 150px;  /* never too big */
-  height: auto;      /* keep aspect ratio */
+  width: 25vw;       
+  max-width: 200px;  
+  height: auto;      
   border-radius: 50%;
   border: 2px solid #c40000;
 }
+
 
 h1 {
   font-size: 2rem;
