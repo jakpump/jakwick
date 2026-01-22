@@ -25,8 +25,8 @@ body {
 }
 
 .avatar img {
-  width: 25vw;       
-  max-width: 200px;  
+  width: 50vw;       
+  max-width: 400px;  
   height: auto;      
   border-radius: 50%;
   border: none;      
